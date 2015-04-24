@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Anne Horton - Exam 2 Problem</title>
+    <link rel="stylesheet" type="text/css" href="Exam2problem.css"/>
+    <script src="Exam2problem.js"></script>
+</head>
+
+<body>
+<section id="title">
+    <h1>Exam 2 Problem - Anne Horton</h1>
+    <hr>
+    <select onchange="MenuChoice()" id="menu">
+        <option>Please select an option</option>
+        <option>Show Section 1</option>
+        <option>Show Section 2</option>
+        <option>Show Section 3</option>
+        <option>Show Section 4</option>
+        <option>Show Section 5</option>
+    </select>
+</section>
+    <hr>
+
+<section id="section1" class="section1">
+    <h2>Category List</h2>
+    <hr>
+    <button onclick="GetCategories()" id="allcategories">Show All Categories</button>
+    <br>
+    <br>
+    <label id="displayallcategories">The operation's result will display here.</label>
+</section>
+
+<section id="section2" class="section2">
+    <h2>Create Category</h2>
+    <br>
+    <label>Please Enter a Category Name: </label>
+    <input type="text" id="catname">
+    <br>
+    <label>Please enter a Category Description: </label>
+    <input type="text" id="catdescrip">
+    <br>
+    <br>
+    <button onclick="CreateACategory()" id="createcat">Create Category</button>
+    <br>
+    <hr>
+    <br>
+    <label id="categoryresult">The operation's result will display here.</label>
+</section>
+
+<section id="section3" class="section3">
+     <h2>Change Category Description</h2>
+    <br>
+    <label>Please Enter a Category ID</label>
+    <input type="text" id="catid">
+    <br>
+    <label>Please Enter the New Category Description</label>
+    <input type="text" id="newdescrip">
+    <br>
+    <button onclick="UpdateDescription()" id="updatedescr">Update Description</button>
+    <br>
+    <hr>
+    <br>
+    <label id="updateresult">The operation's result will display here.</label>
+</section>
+
+<section id="section4" class="section4">
+    <h2>Delete a Category</h2>
+    <br>
+    <label>Please Enter a Category ID</label>
+    <input type="text" id="cid">
+    <br>
+    <button onclick="DeleteCategory()" id="delcat">Delete a Category</button>
+    <br>
+    <hr>
+    <br>
+    <label id="deleteresultdisplay">The operation's result will display here.</label>
+</section>
+
+<section id="section5" class="section5">
+    <h2>About</h2>
+    <br>
+    <hr>
+    <img src="images/me.jpg" id="amh">
+    <br>
+    <p>
+        Name:  Anne Horton
+    </p>
+    <p>
+        I'll have my MS in Management Information Systems in August 2015, following the
+        completion of two additional courses. The first two classes in my concentration of Web and Mobile Development
+        have really proved to be a great learning experience for me.
+    </p>
+    <p>
+        I am new to programming, with my first exposure being in the classes I have taken at UAB. Although
+        the coursework this semester has definitely not been easy, I feel that my takeaways from this class are
+        great. The level of knowledge and additional skills that I've gained during this
+        class has been tremendous.
+    </p>
+    <p>
+        My job exposes me to the client and business side of web and mobile development, however, having a better
+        understanding of the creation and implementation of it has given me a new perspective to consider. I've
+        truly enjoyed this class and I hope that I can continue to learn and build on these skills through additional
+        coursework and also in my spare time.
+    </p>
+</section>  
+
+<hr>
+<footer>
+<p>Anne Horton</p>
+<p>annemh@uab.edu or amhorton77@gmail.com</p>
+</footer>
+
+</body>
+</html>
