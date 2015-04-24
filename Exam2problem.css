@@ -1,0 +1,79 @@
+button {background-color: #80CCE6;}
+
+table, th, td {border: 1px solid black;}
+
+#amh {padding: 5px; height: 25%; width: 25%; }
+
+section.section1
+{
+background-color: #DCDCDC;
+visibility: hidden;
+position: absolute;
+padding: 10px;
+padding-bottom: 80px;
+width: 600px;
+overflow: auto;
+font: 8pt Verdana;
+}
+
+section.section2
+{
+background-color:#DCDCDC;
+visibility: hidden;
+position: absolute;
+padding: 10px;
+padding-bottom: 80px;
+width: 600px;
+overflow: auto;
+font: 8pt Verdana;
+}
+
+section.section3
+{
+background-color:#DCDCDC;
+visibility: hidden;
+position: absolute;
+padding: 10px;
+padding-bottom: 80px;
+width: 600px;
+overflow: auto;
+font: 8pt Verdana;
+}
+
+section.section4
+{
+background-color:#DCDCDC;
+visibility: hidden;
+position: absolute;
+padding: 10px;
+padding-bottom: 80px;
+width: 600px;
+overflow: auto;
+font: 8pt Verdana;
+}
+
+section.section5
+{
+background-color:#DCDCDC;
+visibility: hidden;
+position: absolute;
+padding: 10px;
+padding-bottom: 80px;
+width: 600px;
+overflow: auto;
+font: 8pt Verdana;
+}
+
+footer
+{
+font-style: italic;
+text-align: center;
+color: #FFFFFF;
+background-color: #000000;
+position: fixed;
+bottom: 0;
+left: 0;
+height: 80px;
+width: 600px;
+font: 8pt Verdana;
+}
