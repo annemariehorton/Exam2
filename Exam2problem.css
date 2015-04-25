@@ -64,16 +64,3 @@ overflow: auto;
 font: 8pt Verdana;
 }
 
-footer
-{
-font-style: italic;
-text-align: center;
-color: #FFFFFF;
-background-color: #000000;
-position: fixed;
-bottom: 0;
-left: 0;
-height: 80px;
-width: 600px;
-font: 8pt Verdana;
-}
